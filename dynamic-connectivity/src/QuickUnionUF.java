@@ -27,4 +27,12 @@ public class QuickUnionUF {
 
         id[proot] = qroot;
     }
+
+
+    public static void main(String[] args) {
+        Integer x = 1;
+        byte y = (byte) 1;
+
+        System.out.println(x == y);
+    }
 }
